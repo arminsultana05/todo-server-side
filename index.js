@@ -20,7 +20,7 @@ client.connect(err => {
   async function run() {
     try {
       await client.connect();
-      console.log('mongodb connected');
+      console.log('mongod connected');
       const taskCollection = client.db("todo-collection").collection("todotask");
   
       // read all task
