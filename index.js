@@ -62,7 +62,7 @@ client.connect(err => {
 
 
 app.get("/", (req, res) => {
-    res.send("HELLO WORLD!");
+    res.send("HELL WORLD!");
   });
   
   // port
